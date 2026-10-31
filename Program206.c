@@ -1,36 +1,16 @@
-/*
-    intput :    4
-    output :    1   a   2   b   3   c   4   d
-
-*/
-
-
 #include<stdio.h>
 #include<stdlib.h>
 
-
-void pattern(int iNo)
+int main()
 {
-    int iCnt = 0 ;
-   
-    char ch = '\0';
+    int iCnt = 0;
 
-    
-    for(iCnt = 1 , ch = 'a' ;iCnt <= iNo; iCnt++,ch++)
+    for(iCnt = 0;iCnt < 4;iCnt++)
     {
-        printf("%d\t%c\t",iCnt,ch);
-       
+        printf("*\t");
     }
 
     printf("\n");
-}
-int main()
-{
-    int iValue = 0 ;
-    printf("Enter a number :");
-    scanf("%d",&iValue);
-
-    pattern(iValue);
 
     return EXIT_SUCCESS;
 }
