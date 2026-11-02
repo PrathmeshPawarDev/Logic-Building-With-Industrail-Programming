@@ -37,6 +37,9 @@ int main()
 
     cout<<aobj1.Addition()<<"\n";
     cout<<aobj2.Addition()<<"\n";
+
+    cout<<aobj1.Subtraction()<<"\n";
+    cout<<aobj2.Subtraction()<<"\n";
     
     return EXIT_SUCCESS;
 }
