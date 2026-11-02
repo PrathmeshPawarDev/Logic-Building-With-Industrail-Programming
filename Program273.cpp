@@ -1,25 +1,33 @@
 #include<iostream>
 using namespace std;
 
-template <class T>
-T Addition(T No1,T No2)
+class Arithmatic 
 {
-    T Ans;
+    public :
+        int No1;
+        int No2;
 
-    Ans = No1 + No2;
+        Arithmatic(int A,int B)
+        {
+            No1 = A;
+            No2 = B;
+        }
 
+        int Addition()
+        {
+            int Ans;
+            Ans = No1 + No2;
 
-    return Ans;
-}
+            return Ans;
+        }
 
-
+};
 
 int main()
 {   
-   
-    cout<<Addition(10,11)<<"\n";
-    cout<<Addition(10.5f,11.3f)<<"\n";
-    cout<<Addition(10.5,11.3)<<"\n";
+    Arithmatic aobj(10,11);
+
+    cout<<aobj.Addition()<<"\n";
 
     return EXIT_SUCCESS;
 }
