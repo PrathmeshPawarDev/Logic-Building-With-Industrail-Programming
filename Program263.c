@@ -10,6 +10,7 @@ void CountFrequencyX(char *str)
         if((*str >= 'a') && (*str <= 'z') )
         {
             iCountSmall++;
+            
         }
         else if((*str >= 'A') && (*str <= 'Z') )
         {
