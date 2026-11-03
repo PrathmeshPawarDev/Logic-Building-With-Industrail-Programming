@@ -2,12 +2,14 @@
 #include<stdlib.h>
 int main()
 {
-    int No = 0x3db;
+    int No1 = 14;
+    int No2 = 11;
 
-    printf("Decimal :%d\n",No);
-   // printf("Octal :%o\n",No);
-    //printf("Hexadecimal :%X\n",No);
-    //printf("Hexadecimal :%x\n",No);
+    int Ans = 0;
+    Ans = 14 & 11;
+
+    printf("Decimal :%d\n",Ans);
+   
 
 
     return EXIT_SUCCESS;
